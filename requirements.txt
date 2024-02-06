@@ -1,4 +1,10 @@
+# Specify the PyTorch version
 torch==1.10.0
+
+# Install PyTorch Scatter binary wheel
+torch-scatter
+-f https://data.pyg.org/whl/torch-1.10.0+cpu.html
+
 clip==1.0.0
 streamlit==1.8.0
 Pillow==8.3.2
